@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+}
+
+/* стили для первого блока (header) */
+
+.header {
+    padding: 40px 0px;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.text-container {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+}
+
+.header-title {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.header-list {
+    list-style-type: none;
+    list-style-image: url("../images/list-icon.png");
+    padding-left: 32px;
+    margin-top: 38px;
+}
+
+.list-item {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.header-img {
+    background-color: #ffffff;
+    max-width: 470px;
+    width: 100%;
+    height: 220px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 993px) {
+    .container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .header-container {
+        margin-right: 0px;
+    }
+    
+    .header-title {
+        text-align: center;
+    }
+
+    .header-img {
+        margin-top: 40px;
+    }
+}
+
+/* вёрстка основного контента */
+
+.section {
+    padding: 40px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* фон для Section */
+
+.white {
+    background-color: #ffffff;
+}
+
+.gray {
+    background-color: #f5f5f5;
+}
+
+.blue {
+    background-color: #445162;
+}
+
+.section-text-container {
+    max-width: 650px;
+    margin-right: 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 
+}
+
+.section-text:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.section-img {
+    background-color: #445162;
+    max-width: 430px;
+    width: 100%;
+    height: 250px;
+}
+
+@media screen and (max-width: 993px) {
+    .section {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .section-text-container {
+        margin-right: 0px;
+        max-width: 550px;
+
+    }
+    
+    .section-title {
+        text-align: center;
+    }
+
+    .section-img {
+        margin-top: 40px;
+    }
+}
