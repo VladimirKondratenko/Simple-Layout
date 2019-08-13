@@ -76,6 +76,10 @@ body {
     .header-img {
         margin-top: 40px;
     }
+
+    .header-list {
+        padding-left: 50px;
+    }
 }
 
 /* вёрстка основного контента */
@@ -114,7 +118,7 @@ body {
 .section-text {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 
+    margin-bottom: 20px;
 }
 
 .section-text:nth-child(2) {
@@ -138,7 +142,6 @@ body {
     .section-text-container {
         margin-right: 0px;
         max-width: 550px;
-
     }
     
     .section-title {
@@ -147,5 +150,56 @@ body {
 
     .section-img {
         margin-top: 40px;
+    }
+}
+
+/* вёрстка третьего блока (advantages) */
+
+.section-avg-title {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.section-left {
+    width: 50%;
+}
+
+.section-adv-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-adv-img {
+    background-color: #445161;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    margin-right:10px;
+}
+
+.img {
+    padding-bottom: 7px;
+    padding-right: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.section-right {
+  width: 50%;
+  margin-left: 60px;
+}
+
+
+.section-adv-text {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 993px) {
+    .section-right {
+        margin-right: 60px;
     }
 }
