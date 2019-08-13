@@ -9,6 +9,7 @@ body {
     background: #000;
 }
 
+
 /* стили для первого блока (header) */
 
 .header {
@@ -57,30 +58,26 @@ body {
     margin-top: 5px;
 }
 
-
 @media screen and (max-width: 993px) {
     .container {
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    
     .header-container {
         margin-right: 0px;
     }
-    
     .header-title {
         text-align: center;
     }
-
     .header-img {
         margin-top: 40px;
     }
-
     .header-list {
         padding-left: 50px;
     }
 }
+
 
 /* вёрстка основного контента */
 
@@ -89,6 +86,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 
 /* фон для Section */
 
@@ -113,6 +111,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     margin-bottom: 35px;
+    color: #445161;
 }
 
 .section-text {
@@ -138,20 +137,18 @@ body {
         align-items: center;
         flex-direction: column;
     }
-    
     .section-text-container {
         margin-right: 0px;
         max-width: 550px;
     }
-    
     .section-title {
         text-align: center;
     }
-
     .section-img {
         margin-top: 40px;
     }
 }
+
 
 /* вёрстка третьего блока (advantages) */
 
@@ -160,6 +157,7 @@ body {
     text-align: center;
     font-size: 30px;
     line-height: 36px;
+    color: #445161;
 }
 
 .section-left {
@@ -169,7 +167,6 @@ body {
 .section-adv-container {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .section-adv-img {
@@ -177,7 +174,11 @@ body {
     width: 32px;
     height: 32px;
     padding: 10px;
-    margin-right:10px;
+    margin-right: 10px;
+}
+
+.section-adv-text {
+    margin-bottom: 30px;
 }
 
 .img {
@@ -187,19 +188,39 @@ body {
     height: 20px;
 }
 
-
 .section-right {
-  width: 50%;
-  margin-left: 60px;
-}
-
-
-.section-adv-text {
-  margin-bottom: 30px;
+    width: 50%;
+    margin-left: 60px;
 }
 
 @media screen and (max-width: 993px) {
     .section-right {
         margin-right: 60px;
     }
+    
+    .section-adv-container {
+        width:100%;
+    }
+}
+
+
+/* вёрстка четвертого блока (screenshots) */
+
+.section-screen-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    text-align: center;
+}
+
+.section-screen-img {
+    background-color: #445161;
+    width: 200px;
+    height: 150px;
+}
+
+.section-screen-desc {
+    font-size: 24px;
+    line-height: 30px;
+    color: #445161;
 }
