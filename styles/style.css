@@ -197,11 +197,18 @@ body {
     .section-right {
         margin-right: 60px;
     }
-    
-    .section-adv-container {
-        width:100%;
-    }
 }
+
+@media screen and (max-width: 750px) {
+     .section-left {
+        width: 100%;
+    }
+    .section-right {
+        width: 100%;
+    }
+
+}
+   
 
 
 /* вёрстка четвертого блока (screenshots) */
