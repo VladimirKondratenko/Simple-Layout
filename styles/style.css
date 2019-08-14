@@ -182,6 +182,7 @@ body {
 
 .section-adv-text {
     margin-bottom: 30px;
+    color: #333333;
 }
 
 .img {
@@ -225,6 +226,9 @@ body {
 
 .section-screen-desc {
     margin-left: 20px;
+    color: #445161;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-screen-img {
@@ -274,14 +278,76 @@ body {
     .section-screen-right {
         width: 100%;
     }
+    .section-screen-title {
+        margin-bottom: -50px;
+    }
     .section-screen-img {
         float: none;
         margin: 35px auto;
     }
     .section-screen-desc {
         text-align: center;
+        margin-bottom: 20px;
     }
     .section-screen-text {
-        text-align: center;
+        width: 450px;
+        margin: auto;
     }
+}
+
+
+/* вёрстка пятого блока (reviews) */
+
+.section-reviews-title {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
+    color: #445161;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.section-reviews-left {
+    width: 50%;
+}
+
+.section-reviews-right {
+    width: 50%;
+}
+
+.section-reviews-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.section-reviews-text {
+    background-color: #ebebeb;
+    width: 450px;
+    margin-right: 40px;
+}
+
+.section-reviews-img {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+    float: left;
+}
+
+.section-reviews-desc {
+    font-family: Arial, Italic, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    color: #333333;
+    padding: 15px 15px 10px 15px;
+}
+
+.section-reviews-author {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+    padding: 0px 0px 15px 15px;
 }
