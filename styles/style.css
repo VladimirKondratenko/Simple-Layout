@@ -298,7 +298,7 @@ body {
 
 @media screen and (max-width: 480px) {
     .section-screen-text {
-        width: 200px;
+        width: 90%;
     }
 }
 
