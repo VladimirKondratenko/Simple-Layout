@@ -9,6 +9,16 @@ body {
     background: #000;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7B68EE;
+}
+
 
 /* стили для первого блока (header) */
 
@@ -489,10 +499,11 @@ body {
     line-height: 18px;
     color: #445161;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .buy:hover {
-    background-color: #800000;
+    background-color: #FFDEAD;
     text-decoration: underline;
 }
 
@@ -568,10 +579,11 @@ input {
     font-weight: 600;
     margin-top: 20px;
     margin-left: 180px;
+    cursor: pointer;
 }
 
 .send:hover {
-    background-color: #800000;
+    background-color: #FFDEAD;
     text-decoration: underline;
 }
 
@@ -615,6 +627,26 @@ input {
     margin-top: 20px;
     font-size: 40px;
     color: #ffffff;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.fa-facebook:hover {
+    color: #3578E5;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+
+.fa-google:hover {
+    color: #f4b400;
+}
+
+.fa-youtube:hover {
+    color: #dd2c00;
 }
 
 .fa-twitter,
